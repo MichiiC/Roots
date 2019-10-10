@@ -8,6 +8,12 @@ TagManager:
   - Laser
   - Vehicle
   - Fork Lift
+  - GroundObject
+  - GameManager
+  - OptionsCanvas
+  - MainMenuCanvas
+  - Fire
+  - Grass
   layers:
   - Default
   - TransparentFX
