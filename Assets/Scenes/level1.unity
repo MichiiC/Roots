@@ -3321,9 +3321,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Abandon Building - Frequently trees are felled to create space to make buildings.
-    It is much better for the trees if we reused the space taken up by abandoned buildings,
-    or just refurbished them (if possible).
+  m_Text: "Exhaust Pipe \u2013 Car or truck emissions effect plant life due to trees
+    and other plants make their own \u201Cfood\u201D from carbon dioxide, water, sunlight,
+    and elements found in soil and then release oxygen for humans and animals to breathe.
+    But exhaust fumes can also affect them by producing carbon monoxide, nitrogen
+    dioxide (contributes to acidic rain), soot, and more."
 --- !u!222 &818932547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4693,6 +4695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightPole
       objectReference: {fileID: 0}
+    - target: {fileID: 183694, guid: aafe9fdf381df774fb44c73c25a40784, type: 3}
+      propertyPath: m_TagString
+      value: Lights
+      objectReference: {fileID: 0}
     - target: {fileID: 465660, guid: aafe9fdf381df774fb44c73c25a40784, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.9
@@ -5262,50 +5268,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3414a92d51242524db4e9a1550e82d31, type: 3}
---- !u!1 &1086138567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1086138568}
-  - component: {fileID: 1086138569}
-  m_Layer: 0
-  m_Name: PlayerController (1)
-  m_TagString: Grass
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1086138568
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086138567}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.34955, y: -1.011405, z: 4.936651}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1123670452}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1086138569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086138567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f401634f9974d4198889cb908ef00e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camera: {fileID: 1913289277}
 --- !u!1001 &1106217480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5391,7 +5353,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1272574088}
-  - {fileID: 1086138568}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5704,7 +5665,7 @@ GameObject:
   - component: {fileID: 1211815272}
   m_Layer: 0
   m_Name: Smoke
-  m_TagString: Untagged
+  m_TagString: Smoke
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6277,6 +6238,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 3}
       propertyPath: m_Name
       value: WhiteSmoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 3}
+      propertyPath: m_TagString
+      value: Smoke
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8047,9 +8012,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Abandon Building - Frequently trees are felled to create space to make buildings.
-    It is much better for the trees if we reused the space taken up by abandoned buildings,
-    or just refurbished them (if possible).
+  m_Text: "Caution \u2013 Many caution signs are put up where construction or facilities
+    that deal with hazardous or toxic material and disposables. These hazardous and
+    toxic material affects our environment especially trees which can suck up these
+    harmful toxins and killing them."
 --- !u!222 &1656854903
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8655,6 +8621,10 @@ PrefabInstance:
     - target: {fileID: 1667885095536142, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
       propertyPath: m_Name
       value: Abandon Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667885095536142, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
+      propertyPath: m_TagString
+      value: Abandon
       objectReference: {fileID: 0}
     - target: {fileID: 4390481212675418, guid: 83e9a4cc29228e449b4e3c86a792e188, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10178,7 +10148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913289277}
   m_LocalRotation: {x: 0.031046115, y: 0.53646505, z: 0.019754196, w: -0.8431199}
-  m_LocalPosition: {x: 14.13, y: 3.12, z: -22.79}
+  m_LocalPosition: {x: 14.09, y: 3.12, z: -22.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10874,9 +10844,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Abandon Building - Frequently trees are felled to create space to make buildings.
-    It is much better for the trees if we reused the space taken up by abandoned buildings,
-    or just refurbished them (if possible).
+  m_Text: Light - The lighting on a construction site is likely to be powered by generators
+    which work by burning fuel and giving off harmful emissions, which can damage
+    and pollute the local environment. Many insects are also drawn to light, but artificial
+    lights can create a fatal attraction. Declining insect populations negatively
+    impacts all species that rely on insects for food or pollination.
 --- !u!222 &2088272669
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11165,9 +11137,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Abandon Building - Frequently trees are felled to create space to make buildings.
-    It is much better for the trees if we reused the space taken up by abandoned buildings,
-    or just refurbished them (if possible).
+  m_Text: Grass- All plants have roots that are used to absorb water and other nutrients
+    from the soil. Unfortunately, the soil has a limited amount of these resources,
+    and that means that all the plants in an area need to compete for these resources.
+    Grass usually wins this fight, because it covers so much more surface area, it
+    chokes the trees out.
 --- !u!222 &2116045849
 CanvasRenderer:
   m_ObjectHideFlags: 0
