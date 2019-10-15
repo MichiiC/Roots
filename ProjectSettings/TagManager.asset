@@ -17,6 +17,10 @@ TagManager:
   - Abandon
   - Smoke
   - Lights
+  - lb_perchTarget
+  - lb_groundTarget
+  - lb_bird
+  - Dog
   layers:
   - Default
   - TransparentFX

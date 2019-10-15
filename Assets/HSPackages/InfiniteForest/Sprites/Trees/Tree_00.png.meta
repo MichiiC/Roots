@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: dd04b174ef1e7bf40b2f9a5cb8684253
+timeCreated: 1473738215
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tree_000001
+    21300002: Tree_000011
+    21300004: Tree_000021
+    21300006: Tree_000031
+    21300008: Tree_000041
+    21300010: Tree_000051
+    21300012: Tree_000061
+    21300014: Tree_000071
+    21300016: Tree_000081
+    21300018: Tree_000091
+    21300020: Tree_000101
+    21300022: Tree_000111
+    21300024: Tree_000121
+    21300026: Tree_000131
+    21300028: Tree_000141
+    21300030: Tree_000151
+    21300032: Tree_000161
+    21300034: Tree_000171
+    21300036: Tree_000181
+    21300038: Tree_000191
+    21300040: Tree_000201
+    21300042: Tree_000211
+    21300044: Tree_000221
+    21300046: Tree_000231
+    21300048: Tree_000241
+    21300050: Tree_000251
+    21300052: Tree_000261
+    21300054: Tree_000271
+    21300056: Tree_000281
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tree_000001
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 434
+        width: 374
+        height: 322
+      alignment: 9
+      pivot: {x: 0.41443852, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000011
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1082
+        width: 378
+        height: 318
+      alignment: 9
+      pivot: {x: 0.4153439, y: 0.5283019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000021
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 763
+        width: 377
+        height: 322
+      alignment: 9
+      pivot: {x: 0.4164456, y: 0.5279503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000031
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1729
+        width: 383
+        height: 318
+      alignment: 9
+      pivot: {x: 0.42036554, y: 0.5314465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000041
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 375
+        height: 324
+      alignment: 9
+      pivot: {x: 0.416, y: 0.52469134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000051
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1727
+        width: 382
+        height: 320
+      alignment: 9
+      pivot: {x: 0.41623038, y: 0.528125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000061
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 430
+        width: 376
+        height: 323
+      alignment: 9
+      pivot: {x: 0.41223404, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000071
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1726
+        width: 381
+        height: 321
+      alignment: 9
+      pivot: {x: 0.41469815, y: 0.5233645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000081
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 105
+        width: 376
+        height: 323
+      alignment: 9
+      pivot: {x: 0.4175532, y: 0.52012384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000091
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1402
+        width: 378
+        height: 322
+      alignment: 9
+      pivot: {x: 0.4153439, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1078
+        width: 380
+        height: 320
+      alignment: 9
+      pivot: {x: 0.41842106, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000111
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 111
+        width: 374
+        height: 321
+      alignment: 9
+      pivot: {x: 0.41443852, y: 0.52024925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000121
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 755
+        width: 377
+        height: 321
+      alignment: 9
+      pivot: {x: 0.41379312, y: 0.52024925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000131
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1727
+        width: 380
+        height: 320
+      alignment: 9
+      pivot: {x: 0.41842106, y: 0.521875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000141
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1409
+        width: 381
+        height: 316
+      alignment: 9
+      pivot: {x: 0.42519686, y: 0.528481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000151
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1400
+        width: 381
+        height: 322
+      alignment: 9
+      pivot: {x: 0.42519686, y: 0.51863354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000161
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1411
+        width: 382
+        height: 316
+      alignment: 9
+      pivot: {x: 0.41884816, y: 0.5316456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000171
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 763
+        width: 376
+        height: 317
+      alignment: 9
+      pivot: {x: 0.41223404, y: 0.52996844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000181
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 442
+        width: 375
+        height: 317
+      alignment: 9
+      pivot: {x: 0.41333333, y: 0.52996844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000191
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 441
+        width: 375
+        height: 320
+      alignment: 9
+      pivot: {x: 0.41333333, y: 0.525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000201
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1082
+        width: 380
+        height: 327
+      alignment: 9
+      pivot: {x: 0.42105263, y: 0.51376146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000211
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1082
+        width: 377
+        height: 318
+      alignment: 9
+      pivot: {x: 0.41379312, y: 0.5283019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000221
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 120
+        width: 375
+        height: 319
+      alignment: 9
+      pivot: {x: 0.416, y: 0.5266458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000231
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1402
+        width: 379
+        height: 323
+      alignment: 9
+      pivot: {x: 0.42216358, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000241
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1087
+        width: 378
+        height: 320
+      alignment: 9
+      pivot: {x: 0.42063493, y: 0.528125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000251
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1724
+        width: 386
+        height: 323
+      alignment: 9
+      pivot: {x: 0.4222798, y: 0.52012384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000261
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 423
+        width: 375
+        height: 330
+      alignment: 9
+      pivot: {x: 0.41866666, y: 0.5151515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000271
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 761
+        width: 375
+        height: 319
+      alignment: 9
+      pivot: {x: 0.416, y: 0.5266458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Tree_000281
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 758
+        width: 377
+        height: 322
+      alignment: 9
+      pivot: {x: 0.41909814, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: Trees
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
