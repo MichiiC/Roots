@@ -21,6 +21,11 @@ TagManager:
   - lb_groundTarget
   - lb_bird
   - Dog
+  - Spawner
+  - Well
+  - Ground
+  - Tree
+  - Bird
   layers:
   - Default
   - TransparentFX

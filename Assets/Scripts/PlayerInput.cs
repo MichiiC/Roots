@@ -35,6 +35,68 @@ public class PlayerInput : MonoBehaviour
                     cameraAnimator.Play("CameraMoveToForkLift");
                     print("Fork Lift Touched");
                 }
+                if (go.CompareTag("Grass")){
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToGrass");
+                    print("Grass Touched");
+                }
+                if (go.CompareTag("Abandon"))
+                {
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToAbandon");
+                    print("Abandon Touched");
+                }
+                if (go.CompareTag("Smoke"))
+                {
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToSmoke");
+                    print("Smoke Touched");
+                }
+                if (go.CompareTag("Lights"))
+                {
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToLight");
+                    print("Lights Touched");
+                }
+                if (go.CompareTag("Dog"))
+                {
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToDog");
+                    print("Dog Touched");
+                }
+                if (go.CompareTag("Tree"))
+                {
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToTree");
+                    print("Tree Touched");
+                }
+                if (go.CompareTag("Ground"))
+                {
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToGround");
+                    print("Ground Touched");
+                }
+                if (go.CompareTag("Well"))
+                {
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToWell");
+                    print("Well Touched");
+                }
+                if (go.CompareTag("Bird"))
+                {
+
+                    Animator cameraAnimator = camera.GetComponent<Animator>();
+                    cameraAnimator.Play("CameraMoveToBird");
+                    print("Bird Touched");
+                }
 
             }
         }
