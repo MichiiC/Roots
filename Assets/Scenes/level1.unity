@@ -122,6 +122,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &9709688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1667885095536142, guid: 83e9a4cc29228e449b4e3c86a792e188,
+    type: 3}
+  m_PrefabInstance: {fileID: 1710096658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &9709689
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9709688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.133432, y: 4.2258244, z: 7.739255}
+  m_Center: {x: -1.2349887, y: 1.6129122, z: -0.4295026}
 --- !u!1001 &47174540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3599,7 +3618,7 @@ GameObject:
   - component: {fileID: 825387169}
   - component: {fileID: 825387168}
   m_Layer: 5
-  m_Name: Abandon Building Text Panel
+  m_Name: DescriptionPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6417,6 +6436,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1913289277}
+  descriptionPanel: {fileID: 825387166}
+  descriptionPanelText: {fileID: 1297488817}
+  selectedObject: 
 --- !u!1 &1285416205
 GameObject:
   m_ObjectHideFlags: 0
